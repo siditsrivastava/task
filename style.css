@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-section{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    /* text-align: center; */
+}
+
+.navbar{
+    width:80px;
+    background-color: #1F464B;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.phone-icon{
+    margin-left:18px;
+    width:38px;
+    height: 40px;
+    background-color: red;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: end;
+    margin-top: 10px;
+   
+}
+
+/*  */
+.phone-icon i{
+    padding-top: 10px;
+    padding-left: 3px;
+    font-size: 20px;
+    
+}
+
+.navbar-icon{
+    width: 40px;
+    height: 40px;
+    columns: white;
+    background-color: transparent;
+    margin-left: 15px;
+    padding-top: 8px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar-icon i{
+    padding-left: 3px;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.navbar-icon p{
+    font-size:10px;
+    color: white;
+    margin-top:10px;
+    /* margin-bottom:15px ; */
+    text-align: center;
+}
+.setting-icon{
+    width: 35px;
+    height: 25px;
+    columns: white;
+    background-color: white;
+    margin-left: 18px;
+    padding-top: 8px;
+    border-radius: 60%;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.setting-icon i{
+    padding-left: 3px;
+    font-size: 18px;    
+}
+
+.setting-icon p{
+    font-size:10px;
+    color: white;
+    margin-top:12px;
+    text-align: center;
+}
+
+.sidi-icon{
+    align-items: end; 
+}
+
+.contant-section{
+    width:250px;
+    height: auto;
+    border-right: 1px solid black;
+
+}
+
+.contant-option{
+    margin-left: 20px;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.selected-contant{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 15px;
+    text-align: center;
+    background-color: #EDF5F2;
+    padding-bottom: 15px;
+    margin-right: 20px;
+}
+.selected-contant i{
+    margin-top: 22px;
+    margin-left:10px;
+}
+.selected-contant p{
+    margin-left:10px;
+    font-size: 16px;
+    padding-top:20px;
+}
+
+.contant{
+    display: flex;
+    margin-top: 3px;
+    text-align: center;
+    margin-left: 15px;
+    text-align: center;
+}
+.contant i{
+    margin-top: 22px;
+    margin-left:10px;
+}
+.contant p{
+    margin-left:10px;
+    font-size: 16px;
+    padding-top:20px;
+}
